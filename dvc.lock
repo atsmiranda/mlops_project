@@ -1,6 +1,7 @@
 schema: '2.0'
 stages:
   load_data:
+    always_changed: true
     cmd: python3 -m src.data_loading.load_data
     deps:
     - path: src/data_loading/load_data.py
