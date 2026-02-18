@@ -15,3 +15,7 @@ models/*.keras
 
 #Matrics
 metrics/*.json
+
+#MLFLOW
+mlruns
+
